@@ -1,18 +1,16 @@
 # DraftBoard
 Fantasy Football Draft Board 
-Edit this with notes and updates here
 
 ## Notes:
+Update 8/13/21: Now using different dataset from FantasyPros included in the Data Cleaning IPython Notebook, includes projections made by FantasyPros rather than unique projections
+
 Here's the NFL Database: https://github.com/BurntSushi/nfldb
 The database isnt compatible with Python 3, so if we want to use this, we're going with 2.7.
 
 ## Goals: 
-- Create ranking of players for 2017 fantasy football draft, sortable by position
+- Create ranking of players for 2021 fantasy football draft, sortable by position
+- Turn into web app that can be used for 8/29/21 draft
 
 ## To Do:
-- Find/research main statistics to analyze for fantasy purposes (both ESPN and Yahoo)
-- Clean up data from database into season totals for each of the main statistics for all players
-- Decide on model for predicting statistics for players (PECOTA-style, etc)
-- Apply model to statistics for each player
-- Create rules for various leagues (Gordon's, Jeff's, standard, etc.)
-- Transform predicted statistical values to fantasy point values
+- Finish cleaning data & updating with calculated metrics and values
+- Create simple dashboard with sort, filter, and search functions (possibly with Dash app), including ability to cross players off list as they are drafted
